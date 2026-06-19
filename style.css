@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#d7d7d7;
+  font-family:'Poppins', Arial, sans-serif;
+}
+
+.cartao{
+  width:390px;
+  margin:20px auto;
+  background:white;
+  border-radius:28px;
+  overflow:hidden;
+  box-shadow:0 0 28px #777;
+}
+
+
+
+@media(max-width:430px){
+  .cartao{
+    width:92%;
+  }
+}
